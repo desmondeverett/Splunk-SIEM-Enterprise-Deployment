@@ -18,7 +18,7 @@ Provisioned a dedicated, headless Linux server (`ET-SIEM01`) to host the Splunk 
 ![SSH Connection](Screenshots/01-ssh-connection.png)
 
 *(Screenshot 2: Splunk Service Running)*
-![Splunk Service](Screenshots/1.%20Apache%20Service%20Verifivation.png)
+![Splunk Service](Screenshots/02-splunk-service-running.png)
 
 ---
 
