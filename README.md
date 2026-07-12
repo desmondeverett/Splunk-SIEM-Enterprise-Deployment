@@ -23,9 +23,14 @@ Provisioned a dedicated, headless Linux server (`ET-SIEM01`) to host the Splunk 
 ---
 
 ## 📡 Phase 2: Telemetry & Log Ingestion
-*(We will fill this section out when we install the Universal Forwarder on the Windows Server!)*
+Configured `ET-DC01` (Windows Server) to act as the primary log source. Installed and configured the Splunk Universal Forwarder to continuously ship Windows Event Logs (Security, System, Application) over the internal NAT network to the `ET-SIEM01` indexer.
 
+*(Screenshot 3: Windows Server Universal Forwarder Configuration)*
+*(Screenshot 4: Splunk Receiving Logs)*
 ---
 
 ## ⚔️ Phase 3: Attack Simulation & Threat Hunting
-*(We will fill this section out when we brute-force the server and track Event ID 4625!)*
+Simulated an adversary attempting to compromise the Active Directory Domain Controller via a brute-force credential attack. Leveraged custom SPL (Splunk Processing Language) queries to detect the anomalous authentication behavior and track Event ID 4625 (Failed Logon).
+
+*(Screenshot 5: Brute Force Attack Execution)*
+*(Screenshot 6: Splunk Dashboard Querying Event ID 4625)*
