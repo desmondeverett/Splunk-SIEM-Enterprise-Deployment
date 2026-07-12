@@ -15,9 +15,11 @@ To mirror an enterprise environment, strict naming conventions and isolated virt
 Provisioned a dedicated, headless Linux server (`ET-SIEM01`) to host the Splunk Enterprise engine, prioritizing resource allocation for high-speed log parsing. Remote administration was established via SSH to execute the deployment.
 
 *(Screenshot 1: SSH Connection to ET-SIEM01)*
-![SSH Connection](Screenshots/01-ssh-connection.png)
+![SSH Connection](01-ssh-connection.png)
 
-*(Screenshot 2: Splunk Installation Success)*
+*(Screenshot 2: Splunk Service Running)*
+![Splunk Service](02-splunk-service-running.png)
+
 ---
 
 ## 📡 Phase 2: Telemetry & Log Ingestion
